@@ -12,5 +12,8 @@
     "require": {},
     "autoload": {
         "psr-4": {"App\\": "src/"}
+    },
+    "scripts": {
+        "post-update-cmd": "mkdir src",
     }
 }
